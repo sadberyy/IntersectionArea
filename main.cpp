@@ -228,7 +228,7 @@ int main()
 
                 // Генерация количества вершин и просто случайных вершин
                 int count = rand() % (static_cast<int>(std::min(Xlim - mousePosition.x - 1, mousePosition.y - 1))) + 2;
-                for (int i = 0; i < std::min(20, count); ++i) {//////////здесь по-правильному надо поставить i < count, но из-за того, что точек очень много, все многоугольники будут примерно одинаковыми
+                for (int i = 0; i < std::min(20, count); ++i) {
                     int randomX = lower_boundX + rand() % (upper_boundX - lower_boundX + 1);
                     int randomY = lower_boundY + rand() % (upper_boundY - lower_boundY + 1);
                     if (randomX == static_cast<int>(mousePosition.x))
