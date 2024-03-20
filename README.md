@@ -5,4 +5,9 @@
 - The coordinate of the mouse click is one of the vertices of the convex polygon.  
 - The number of polygons is unlimited.  
 - Degenerate polygons are not generated.
-- Graham scan algorithm is used.  
+- Graham scan algorithm is used.
+
+____________________________________________
+Работу выполняли: Масленикова Полина, Будовская Татьяна, Белай Алина, Еркина Екатерина.
+Группа "Смешарики"
+22ПМИ1
